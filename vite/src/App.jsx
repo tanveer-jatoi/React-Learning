@@ -1,14 +1,12 @@
-import Tea from './Tea.jsx';
+import Tea from './tea.jsx';
 
-
-function App(){
-
+function App() {
   return (
     <>
-      <Tea/>
+      <Tea />
       <h3>Tanveer_ALI_Jatoi</h3>
     </>
-  )
+  );
 }
 
-export default App;
+export default App;  
