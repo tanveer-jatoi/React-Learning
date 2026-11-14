@@ -52,8 +52,26 @@ setCurrency={form}
     <div className="relative w-full h-0.5">
       <button type="button"
       className="absolute left-1/2-translate-1/2 -translate-y-1/2
-      border-white rounded-md bg-blue-600 text-white px-2 py-0.5"> Swap </button>
+      border-white rounded-md bg-blue-600 text-white px-2 py-0.5"
+       onClick={swap}> Swap </button>
 </div>
+<div className="w-full mt-1 md-4">
+<inputBox
+label={form}
+  form={amount}
+  currencyOption={Option}
+onCurrencyChange={(currency) => setAmount(currency)}
+setCurrency={form}
+
+
+/>
+</div>
+<button type="submit"
+className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg">Convert</button>
+
+
+
+  </div>
           </div>
 
 
